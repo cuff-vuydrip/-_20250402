@@ -109,10 +109,42 @@ nav ul {
 .key-visual {
     height: 600px;
     background-color: burlywood;
+    background-image: url(img/top-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
 }
 
 .key-visual-content {
     height: 300px;
     width: 560px;
     background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 2.5px;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.key-visual-content h2 {
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+.key-visual-content p {
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.key-visual-content .notice {
+    margin: 0;
+    font-size: 13px;
+}
+
+hr {
+    margin-bottom: 15px;
 }
