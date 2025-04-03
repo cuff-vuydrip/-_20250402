@@ -20,6 +20,9 @@ h1, h2 {
 
 nav {
     background-color: #343A40;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
 }
 
 nav ul li {
@@ -30,4 +33,15 @@ nav ul {
     width: 1110px;
     margin: 0 auto;
     list-style: none;
+}
+
+.key-visual {
+    height: 600px;
+    background-color: burlywood;
+}
+
+.key-visual-content {
+    height: 300px;
+    width: 560px;
+    background-color: #fff;
 }
