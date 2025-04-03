@@ -7,3 +7,12 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+h1, h2 {
+    font-family: inherit;
+}
+
+.inner {
+    width: 1110px;
+    background-color: gray;
+}
