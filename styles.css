@@ -15,4 +15,19 @@ h1, h2 {
 .inner {
     width: 1110px;
     background-color: gray;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #343A40;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul {
+    width: 1110px;
+    margin: 0 auto;
+    list-style: none;
 }
